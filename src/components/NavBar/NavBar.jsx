@@ -6,7 +6,7 @@ import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
 const NavBar = () => {
   const [isOpen, setOpen] = useState(false);
   const [theme, setTheme] = useState(
-    localStorage.getItem("theme") ? localStorage.getItem("theme") : "cupcake"
+    localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );
 
   const handleTheme = (e) => {
