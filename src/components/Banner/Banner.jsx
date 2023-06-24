@@ -4,17 +4,17 @@ import Button from "../Button/Button";
 
 const Banner = () => {
   return (
-    <div className="md:flex mt-10 md:mx-10 mx-5">
+    <div className="lg:flex md:flex mt-10 lg:mx-10 md:mx-10 mx-5">
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="md:w-[1600px] md:mt-24 mt-5"
+        className="lg:w-[1600px] md:w-[1500px] lg:mt-24 mt-5"
       >
         <h1 className="text-5xl font-bold  mt-5">Welcome !!</h1>
-        <h1 className="md:text-2xl text-xl font-bold mt-8">My name is,</h1>
-        <h2 className="md:text-6xl text-5xl font-bold mt-2"> Tasin Ahammed</h2>
-        <p className="font-bold md:text-3xl text-xl gap-5 mt-5">
+        <h1 className="lg:text-2xl text-xl font-bold mt-8">My name is,</h1>
+        <h2 className="lg:text-6xl text-5xl font-bold mt-2"> Tasin Ahammed</h2>
+        <p className="font-bold lg:text-3xl text-xl gap-5 mt-5">
           <TypeAnimation
             sequence={[
               // Same String at the start will only be typed once, initially
@@ -37,9 +37,9 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
       >
-        <div className="md:w-[60%] mx-auto md:mt-12 mt-5 mr-0">
+        <div className="lg:w-[60%] md:w-[80%] mx-auto lg:mt-12 mt-5 md:mt-0 mr-0">
           <img
-            className=" rounded-full mx-auto  w-[70%]"
+            className=" rounded-full mx-auto  lg:w-[70%] md:w-[40%] w-[50%] "
             src="
             https://i.ibb.co/QKWjPp7/Screenshot-2-removebg-preview-1.png
 "
