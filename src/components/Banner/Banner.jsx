@@ -1,10 +1,27 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Button from "../Button/Button";
+import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="lg:flex md:flex mt-10 lg:mx-10 md:mx-10 mx-5">
+    <div className="lg:flex md:flex mt-10 lg:mx-32 md:mx-10 mx-5">
+      <div className="mr-32 md:hidden lg:block">
+        <div className="bg-slate-700 p-3 rounded-3xl flex flex-col gap-5 mt-52">
+          <a className="text-3xl" href="">
+            <FaFacebook />
+          </a>
+          <a className="text-3xl" href="">
+            <FaTwitter />
+          </a>
+          <a className="text-3xl" href="">
+            <FaInstagram />
+          </a>
+          <a className="text-3xl" href="">
+            <FaGithub />
+          </a>
+        </div>
+      </div>
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}

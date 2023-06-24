@@ -25,13 +25,13 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="mt-2 flex justify-center items-center  p-2">
+      <div className="mt-2 flex justify-center items-center  p-2 lg:mx-20">
         <div className="md:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
 
         <div className="navbar">
-          <a className="btn btn-ghost normal-case text-4xl font-bold">
+          <a className="btn btn-ghost normal-case lg:text-4xl md:text-3xl text-4xl  font-bold">
             Tasin Ahammed
           </a>
         </div>
@@ -111,7 +111,9 @@ const NavBar = () => {
         {/* Small Icon */}
       </div>
       <div
-        className={`bg-[#122240] ${theme === "light" ? 'text-white' : ''} md:hidden w-[80vw] h-[70vh] py-6 flex flex-col text-center gap-8 absolute duration-700 ${
+        className={`bg-[#122240] ${
+          theme === "light" ? "text-white" : ""
+        } md:hidden w-[80vw] h-[70vh] py-6 flex flex-col text-center gap-8 absolute duration-700 ${
           isOpen === true ? "left-0" : "-left-96"
         }`}
       >
