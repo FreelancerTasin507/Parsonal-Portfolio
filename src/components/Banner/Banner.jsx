@@ -1,32 +1,15 @@
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Button from "../Button/Button";
-import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div className="lg:flex md:flex mt-10 lg:mx-32 md:mx-10 mx-5">
-      <div className="mr-32 md:hidden lg:block">
-        <div className="bg-slate-700 p-3 rounded-3xl flex flex-col gap-5 mt-52">
-          <a className="text-3xl" href="">
-            <FaFacebook />
-          </a>
-          <a className="text-3xl" href="">
-            <FaTwitter />
-          </a>
-          <a className="text-3xl" href="">
-            <FaInstagram />
-          </a>
-          <a className="text-3xl" href="">
-            <FaGithub />
-          </a>
-        </div>
-      </div>
+    <div className="lg:flex mt-10   mx-5">
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="lg:w-[1600px] md:w-[1500px] lg:mt-24 mt-5"
+        className=" md:w-[810px] lg:mt-24 mt-5 lg:ml-40"
       >
         <h1 className="text-5xl font-bold  mt-5">Welcome !!</h1>
         <h1 className="lg:text-2xl text-xl font-bold mt-8">My name is,</h1>
@@ -54,9 +37,9 @@ const Banner = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
       >
-        <div className="lg:w-[60%] md:w-[80%] mx-auto lg:mt-12 mt-5 md:mt-0 mr-0">
+        <div className="lg:w-[60%] md:w-[40%] mx-auto lg:mt-12 mt-5 md:mt-0 ">
           <img
-            className=" rounded-full mx-auto  lg:w-[70%] md:w-[40%] w-[50%] "
+            className=" rounded-full mx-auto  lg:w-[40%] md:w-[40%] w-[50%] "
             src="
             https://i.ibb.co/QKWjPp7/Screenshot-2-removebg-preview-1.png
 "
