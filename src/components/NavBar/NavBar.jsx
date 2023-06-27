@@ -25,7 +25,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="mt-2 flex justify-center items-center  p-2 lg:mx-20">
+      <div className="mt-2 flex justify-center items-center  p-2 lg:mx-20 sticky z-20 top-0">
         <div className="md:hidden">
           <Hamburger toggled={isOpen} toggle={setOpen} />
         </div>
@@ -42,7 +42,7 @@ const NavBar = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.1, delay: 0.4 }}
           >
-            <a className=" font-semibold" to="/">
+            <a className=" font-semibold cursor-pointer" to="/">
               Home
             </a>
           </motion.li>
@@ -52,8 +52,8 @@ const NavBar = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.2, delay: 0.5 }}
           >
-            <a className=" font-semibold" to="/about">
-              About
+            <a className=" font-semibold cursor-pointer" to="/service">
+            Service
             </a>
           </motion.li>
           <motion.li
@@ -62,7 +62,7 @@ const NavBar = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.3, delay: 0.6 }}
           >
-            <a className=" font-semibold" to="/projects">
+            <a className=" font-semibold cursor-pointer" to="/projects">
               Projects
             </a>
           </motion.li>
@@ -72,7 +72,7 @@ const NavBar = () => {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.4, delay: 0.7 }}
           >
-            <a className=" font-semibold" to="/contact">
+            <a className=" font-semibold cursor-pointer" to="/contact">
               contact
             </a>
           </motion.li>
@@ -113,15 +113,15 @@ const NavBar = () => {
       <div
         className={`bg-[#122240] ${
           theme === "light" ? "text-white" : ""
-        } md:hidden w-[80vw] h-[70vh] py-6 flex flex-col text-center gap-8 absolute duration-700 ${
+        } md:hidden w-[80vw] h-[70vh] py-6 flex flex-col text-center gap-8 absolute duration-700 z-20 ${
           isOpen === true ? "left-0" : "-left-96"
         }`}
       >
         <a className=" font-semibold mt-10" to="/">
           Home
         </a>
-        <a className=" font-semibold" to="/about">
-          About
+        <a className=" font-semibold" to="/service">
+        Service
         </a>
         <a className=" font-semibold" to="/projects">
           Projects

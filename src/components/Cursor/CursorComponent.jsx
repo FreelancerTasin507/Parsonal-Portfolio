@@ -80,7 +80,7 @@ const CursorComponent = () => {
       {[...Array(20)].map((_, index) => (
         <div
           key={index}
-          className="circle hidden md:hidden lg:block"
+          className="circle  "
           style={{
             height: "24px",
             width: "24px",
@@ -94,7 +94,7 @@ const CursorComponent = () => {
           }}
           ref={(el) => (circlesRef.current[index] = el)}
         >
-          <div>
+          <div className="hidden md:hidden lg:block">
             <div className="circle"></div>
             <div className="circle"></div>
             <div className="circle"></div>

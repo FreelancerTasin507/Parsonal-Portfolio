@@ -2,14 +2,18 @@ import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import Button from "../Button/Button";
 
+
 const Banner = () => {
+
+ 
+
   return (
-    <div className="lg:flex mt-10   mx-5">
+    <div className="lg:flex mt-10   mx-5" id="home">
       <motion.div
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className=" md:w-[810px] lg:mt-24 mt-5 lg:ml-40"
+        className=" md:w-[810px] lg:mt-24 mt-5 lg:ml-60"
       >
         <h1 className="text-5xl font-bold  mt-5">Welcome !!</h1>
         <h1 className="lg:text-2xl text-xl font-bold mt-8">My name is,</h1>
