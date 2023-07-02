@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Spin as Hamburger } from "hamburger-react";
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
+import PDF from "../PDF/PDF";
 
 const NavBar = () => {
   const [isOpen, setOpen] = useState(false);
@@ -80,9 +81,9 @@ const NavBar = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.5 }}
-            className="btn btn-outline duration-300 ml-4"
+            className=""
           >
-            Resume
+            <PDF></PDF>
           </motion.button>
         </div>
         <label className="swap swap-rotate">

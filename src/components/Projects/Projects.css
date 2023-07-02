@@ -35,6 +35,7 @@
 .projectAncor:hover {
   color: #ffffff;
   background-color: #000;
+  border-radius: 10px;
 }
 .projectAncor:hover:after,
 .projectAncor:hover:before {
@@ -53,19 +54,19 @@
   border-radius: 10px;
 }
 .colmdx:nth-child(1) {
-  background: url(https://masterofdropship.com/HTML%26CSS_Animation/scroll%20on%20hover/images/web1.png);
+  background: url(https://i.ibb.co/bj4v6Gy/toy-shop-client.png);
   background-position: top;
   background-size: cover;
   transition: linear 3s;
 }
 .colmdx:nth-child(2) {
-  background: url(https://masterofdropship.com/HTML%26CSS_Animation/scroll%20on%20hover/images/web2.png);
+  background: url(https://i.ibb.co/rvLBkBf/screencapture-boisterous-zuccutto-ffdb67-netlify-app-2023-07-02-00-33-20.png);
   background-position: top;
   background-size: cover;
   transition: linear 3s;
 }
 .colmdx:nth-child(3) {
-  background: url(https://masterofdropship.com/HTML%26CSS_Animation/scroll%20on%20hover/images/web3.png);
+  background: url(https://i.ibb.co/NL9MM1L/screencapture-creative-quokka-e17099-netlify-app-2023-07-02-00-36-48.png);
   background-position: top;
   background-size: cover;
   transition: linear 3s;

@@ -10,24 +10,36 @@ const Projects = () => {
       </div>
       <div>
         <nav className="projectNav text-center ">
-          <a className="projectAncor mr-5" href="#home">
+          <a className="projectAncor mr-5" href="">
             HTML & CSS
           </a>
-          <a className="projectAncor mr-5" href="#about">
+          <a className="projectAncor mr-5" href="">
             Tailwind CSS
           </a>
-          <a className="projectAncor mr-5" href="#services">
+          <a className="projectAncor mr-5" href="">
             React Js
           </a>
-          <a className="projectAncor mr-5" href="#contact">
+          <a className="projectAncor mr-5" href="">
             MERN Stack
           </a>
         </nav>
         <div className="mt-20">
-          <div class="main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:ml-40">
-            <a class="colmdx w-[70%] ml-10 h-[300px] lg:w-[70%] md:h-[300px] lg:h-[400px]"></a>
-            <a class="colmdx w-[70%] ml-10 h-[300px] lg:w-[70%] md:h-[300px] lg:h-[400px]"></a>
-            <a class="colmdx w-[70%] ml-10 h-[300px] lg:w-[70%] md:h-[300px] lg:h-[400px]"></a>
+          <div className="main grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:ml-40">
+            <a
+              href="https://toy-shop-client.web.app"
+              target="_blank"
+              className="colmdx w-[70%] ml-10 h-[300px] lg:w-[70%] md:h-[300px] lg:h-[400px]"
+            ></a>
+            <a
+              href="https://boisterous-zuccutto-ffdb67.netlify.app/"
+              target="_blank"
+              className="colmdx w-[70%] ml-10 h-[300px] lg:w-[70%] md:h-[300px] lg:h-[400px]"
+            ></a>
+            <a
+              href="https://creative-quokka-e17099.netlify.app/"
+              target="_blank"
+              className="colmdx w-[70%] ml-10 h-[300px] lg:w-[70%] md:h-[300px] lg:h-[400px]"
+            ></a>
           </div>
         </div>
       </div>

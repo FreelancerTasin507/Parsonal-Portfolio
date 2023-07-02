@@ -17,7 +17,17 @@
     />
   </head>
   <body style="font-family: 'Signika', sans-serif">
-    <div id="root"></div>
+    <div id="root">
+      <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+      ></script>
+      <script type="text/javascript">
+        (function () {
+          emailjs.init("X3FeqWtL-XXYPhONC");
+        })();
+      </script>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

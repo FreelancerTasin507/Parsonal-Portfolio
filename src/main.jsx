@@ -8,7 +8,7 @@ import CursorComponent from "./components/Cursor/CursorComponent.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <div className="max-w-[2000px] mx-auto">
-      <CursorComponent></CursorComponent>
+      {/* <CursorComponent></CursorComponent> */}
       <App />
     </div>
   </React.StrictMode>

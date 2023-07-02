@@ -3,8 +3,10 @@ import NavBar from "./components/NavBar/NavBar";
 import Banner from "./components/Banner/Banner";
 import Services from "./components/Services/Services";
 import { FaFacebook, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
-// import Recharts from "./components/Recharts/Recharts";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
+import Wavify from "./components/Wave/Wavify";
+import Skills from "./components/Recharts/Skills";
 
 
 function App() {
@@ -31,10 +33,11 @@ function App() {
         </div>
         <div>
           <Banner></Banner>
-          <Services></Services>
-          {/* <Recharts></Recharts> */}
+          <Skills></Skills>
           <Projects></Projects>
-          
+          <Services></Services>
+          <Contact></Contact>
+          <Wavify></Wavify>
         </div>
       </div>
     </>
